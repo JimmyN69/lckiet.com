@@ -4,11 +4,12 @@ body {
 
     background: #111;
     color: white;
-
     font-family: Arial, sans-serif;
+}
 
+main {
     max-width: 800px;
-    margin: 100px auto;
+    margin: 0 auto;
     padding: 20px;
 }
 
@@ -38,6 +39,8 @@ button {
 
     padding: 0 30px;
     box-sizing: border-box;
+
+    z-index: 1000;
 }
 
 .logo {
@@ -59,9 +62,4 @@ button {
 
 .nav-links a:hover {
     color: #aaa;
-}
-
-body {
-    margin: 0;
-    padding-top: 80px;
 }
