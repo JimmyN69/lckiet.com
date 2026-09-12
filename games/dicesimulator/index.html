@@ -25,7 +25,15 @@
         </select>
 
         <label for="diceCount">Number of dice:</label>
-        <input type="number" id="diceCount" value="1" min="1" max="20">
+        <input type="number" id="diceCount" value="1" min="1" max="100">
+
+        <label for="sortOrder">Sort:</label>
+
+        <select id="sortOrder">
+            <option value="none">Unsorted</option>
+            <option value="asc">Lowest first</option>
+            <option value="desc">Highest first</option>
+        </select>
 
         <button id="rollButton">Roll</button>
 
