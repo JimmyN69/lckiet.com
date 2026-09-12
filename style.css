@@ -133,3 +133,8 @@ button {
 
     border-radius: 10px;
 }
+
+#rollButton {
+    display: block;
+    margin-top: 20px;
+}
