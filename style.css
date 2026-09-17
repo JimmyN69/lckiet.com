@@ -139,6 +139,12 @@ button {
     margin-top: 20px;
 }
 
+.lobby-options {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
 .lobby-box {
     display: flex;
     flex-direction: column;
@@ -154,7 +160,6 @@ button {
     border: 1px solid #333;
     border-radius: 12px;
 
-    margin-bottom: 20px;
 }
 
 .lobby-box input {
