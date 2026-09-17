@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dice Simulator</title>
+    <title>Dice Multiplayer</title>
 
     <script src="/navbar.js" defer></script>
     <link rel="stylesheet" href="/style.css">
@@ -12,10 +12,28 @@
 <body>
     <main>
         <h1>Dice Multiplayer</h1>
+        <div class="lobby-box">
+            <label for="username">Name:</label> 
+            <input 
+            type="text" 
+            id="username" 
+            placeholder="Enter username">
 
-        <button onclick="alert('suyashi')">
-            Create Lobby
-        </button>
+            <button onclick="alert('suyashi')">
+                Create Lobby
+            </button>
+
+            <label for="lobbyid">Lobby ID:</label>
+            <input 
+            type="number" 
+            id="lobbyid" 
+            placeholder="Enter lobby code">
+
+            <button onclick="alert('suyashi')">
+                Join Lobby
+            </button>
+        <div>
+        
     </main>
 
     <script src="dicemultiplayer.js"></script>

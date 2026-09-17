@@ -138,3 +138,40 @@ button {
     display: block;
     margin-top: 20px;
 }
+
+.lobby-box {
+    display: flex;
+    flex-direction: column;
+
+    gap: 12px;
+
+    max-width: 350px;
+
+    padding: 25px;
+
+    background: #1b1b1b;
+
+    border: 1px solid #333;
+    border-radius: 12px;
+}
+
+.lobby-box input {
+    padding: 10px;
+
+    font-size: 16px;
+
+    border-radius: 6px;
+    border: 1px solid #555;
+}
+
+.lobby-box button {
+    width: 100%;
+}
+
+.lobby-divider {
+    text-align: center;
+
+    color: #888;
+
+    margin: 10px 0;
+}
