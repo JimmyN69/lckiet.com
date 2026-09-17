@@ -165,7 +165,8 @@ button {
 }
 
 .lobby-box button {
-    width: 100%;
+    width: 200px;
+    align-self: center;
 }
 
 .lobby-divider {
@@ -174,4 +175,8 @@ button {
     color: #888;
 
     margin: 10px 0;
+}
+
+.name-row {
+    margin-bottom: 20px;
 }

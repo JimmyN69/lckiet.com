@@ -12,27 +12,30 @@
 <body>
     <main>
         <h1>Dice Multiplayer</h1>
-        <label for="username">Name:</label> 
+        <div class="name-row">
+            <label for="username">Name:</label> 
+
             <input 
-            type="text" 
-            id="username" 
-            placeholder="Enter username">
+                type="text" 
+                id="username" 
+                placeholder="Enter username">
+        </div>
         <div class="lobby-box">
             <button onclick="alert('suyashi')">
                 Create Lobby
             </button>
-        <div>
+        </div>
         <div class="lobby-box">
             <label for="lobbyid">Lobby ID:</label>
             <input 
-            type="number" 
+            type="text" 
             id="lobbyid" 
             placeholder="Enter lobby code">
 
             <button onclick="alert('suyashi')">
                 Join Lobby
             </button>
-        <div>
+        </div>
 
         <p id="lobbyStatus"></p>
         
