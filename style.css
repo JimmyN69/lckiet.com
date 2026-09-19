@@ -141,8 +141,15 @@ button {
 
 .lobby-options {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    align-items: stretch;
     gap: 20px;
+}
+
+@media (max-width: 700px) {
+    .lobby-options {
+        flex-direction: column;
+    }
 }
 
 .lobby-box {
@@ -185,5 +192,15 @@ button {
 }
 
 .name-row {
-    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 25px;
+}
+
+.name-row input {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 6px;
+    border: 1px solid #555;
 }
